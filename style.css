@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+}
+.buttons {
+    margin-bottom: 20px;
+}
+.buttons button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: lightgray;
+}
+.buttons button.active {
+    background-color: blue;
+    color: white;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+.gallery img {
+    width: auto;
+    height: 200px;
+    max-width: 300px; 
+    border-radius: 5px solid black;
+}
