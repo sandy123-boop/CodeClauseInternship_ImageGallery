@@ -1,0 +1,1 @@
+# Image Gallery: 1st project of CodeClause internship.
